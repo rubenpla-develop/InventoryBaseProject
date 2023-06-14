@@ -29,11 +29,11 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-   /* testOptions {
+   testOptions {
         unitTests {
             includeAndroidResources = true
         }
-    }*/
+    }
 
     kotlinOptions {
         jvmTarget = '17'
